@@ -1,0 +1,5 @@
+{
+  "name": "AI GitHub DevOps Agent",
+  "description": "An autonomous AI agent that analyzes local projects, generates documentation, and deploys them to GitHub with full CI/CD and health checks.",
+  "requestFramePermissions": []
+}
