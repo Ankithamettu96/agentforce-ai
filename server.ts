@@ -1171,7 +1171,7 @@ Keep the response useful and reasonably concise.
     );
 
     app.get(
-      "*",
+      '/{*splat}',
       (req, res) => {
         console.log(
           `[SPA Fallback] Serving index.html for: ${req.method} ${req.url}`
